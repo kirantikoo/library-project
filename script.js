@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let valid = true; // Flag to check form validity
 
+        // Validations
         // Check if email is empty
         if (email === "") {
             emailError.innerText = "Email is required.";
