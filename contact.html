@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fremantle Library offers a wide range of books, study spaces, events, and more. Visit us to explore our collections and services.">
+  <title>Fremantle Library Home by Kiran Tikoo</title>
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+  <body>
+    <!-- Navigation Bar start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <div class="logo">
+            <img src="Images/logomain.png" alt="Fremantle Library">
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="features.html">Library Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="book-lists.html">Book Lists</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <form class="d-flex me-2">
+              <div class="search-container">
+                <input class="form-control" type="search" placeholder="Search for books..." aria-label="Search">
+              </div>
+            </form>
+            <a href="register.html" class="btn btn-dark me-2">Register</a>
+            <a href="login.html" class="btn btn-dark">Login</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation end -->
+
+<!-- Contact Section -->
+<main class="container mt-5 pt-5">
+  <section class="py-5">
+    <div class="text-center mb-5">
+      <h1 class="display-4 fw-bold">Get in Touch with Us</h1>
+      <p class="lead">We're here to help and answer any questions you might have</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <!-- Contact Information -->
+      <div class="col-lg-5 mb-4">
+        <div class="card shadow-sm p-4 h-100">
+          <div class="mb-4">
+            <h5 class="d-flex align-items-center mb-3">
+              <i class="fas fa-map-marker-alt social-icon text-purple me-2"></i> Address
+            </h5>
+            <p class="ms-4 mb-0">70 Parry Street</p>
+            <p class="ms-4">Fremantle, WA 6160</p>
+          </div>
+
+          <div class="mb-4">
+            <h5 class="d-flex align-items-center mb-3">
+              <i class="fas fa-phone-alt social-icon text-purple me-2"></i> Phone
+            </h5>
+            <p class="ms-4">(08) 9432 9766</p>
+          </div>
+
+          <div class="mb-4">
+            <h5 class="d-flex align-items-center mb-3">
+              <i class="fas fa-envelope social-icon text-purple me-2"></i> Email
+            </h5>
+            <p class="ms-4">library@fremantle.wa.gov.au</p>
+          </div>
+
+          <div>
+            <h5 class="mb-3">Follow Us</h5>
+            <div class="d-flex gap-3 ms-4">
+              <a href="https://twitter.com" class="text-decoration-none" target="_blank">
+                <i class="fab fa-twitter fa-lg social-icon"></i>
+              </a>
+              <a href="https://facebook.com" class="text-decoration-none" target="_blank">
+                <i class="fab fa-facebook fa-lg social-icon"></i>
+              </a>
+              <a href="https://instagram.com" class="text-decoration-none" target="_blank">
+                <i class="fab fa-instagram fa-lg social-icon"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/fremantle-city-library/about/" class="text-decoration-none" target="_blank">
+                <i class="fab fa-linkedin fa-lg social-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-5 mb-4">
+        <div class="card shadow-sm p-4 h-100">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control text-black" id="name" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control text-black" id="email" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control text-black" id="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-purple w-100 py-2 btn-hover">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<!-- Map Section start -->
+<section>
+  <h2 class="text-center mb-4">Our Location</h2>
+  <div class="card shadow-sm">
+    <div class="ratio ratio-21x9">
+      <!-- Replace with actual Google Maps embed code -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3381.4471827603866!2d115.75117389999998!3d-32.057151700000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32a17b8c96cc61%3A0xd2d4f56dcba2ac62!2s70%20Parry%20St%2C%20Fremantle%20WA%206160!5e0!3m2!1sen!2sau!4v1740813139375!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+<!-- Map Section end -->
+
+
+<!-- Footer start-->
+    <footer class="text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h5>Services</h5>
+            <p>Book Borrowing</p>
+            <p>Study Rooms</p>
+            <p>Events</p>
+          </div>
+          <div class="col-md-3">
+            <h5>Resources</h5>
+            <p>FAQs</p>
+            <p>Guidelines</p>
+            <p>Help Center</p>
+          </div>
+          <div class="col-md-3">
+            <h5>Contact Us</h5>
+            <p>70 Parry Street, Fremantle</p>
+            <p>Phone: (08) 9432 9766</p>
+            <p>Email: library@fremantle.wa.gov.au</p>
+          </div>
+          <div class="col-md-3">
+            <h5>Connect</h5>
+            <div class="d-flex gap-2">
+              <a href="https://twitter.com" target="_blank"> 
+              <img src="Images/twitter.png" alt="Twitter" class="rounded-circle" width="40"> 
+              </a>
+              <a href="https://facebook.com" target="_blank">
+              <img src="Images/facebook.png" alt="Facebook" class="rounded-circle" width="40">
+              </a>
+              <a href="https://linkedin.com" target="_blank">
+              <img src="Images/linkedin.png" alt="LinkedIn" class="rounded-circle" width="40">
+              </a>
+              <a href="https://instagram.com" target="_blank">
+              <img src="Images/instagram.png" alt="Instagram" class="rounded-circle" width="40">
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-4" style="border-top: 1px solid rgba(255, 255, 255, 0.3)">
+        <div class="text-center mt-2">
+          <p>© 2025 Fremantle Library. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+<!-- Footer end -->
+
+<!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

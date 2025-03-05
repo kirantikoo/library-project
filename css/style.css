@@ -1,0 +1,273 @@
+/* General Styles */
+body {
+  font-family: 'Albert Sans', sans-serif;
+  color: #000000;
+}
+
+header.nav-item {
+padding-right: 50px;
+font-weight: bold;
+font-size: large;
+}
+
+.logo img {
+height: 50px;
+width: auto;
+}
+
+.form-control{
+color: white}
+
+/* Hero Section */
+.hero-section {
+  height: 80vh;
+  position: relative;
+}
+
+.btn {
+  background-color: #2A0D54;
+  border-radius: 20px;
+  border-color: #2A0D54;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+main.container {
+  padding-top: 80px;
+}
+
+.hero-section .logo img {
+height: 100px;
+width: auto;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.opening-hours table {
+    border: none;
+}
+
+.opening-hours table td {
+    border: none;
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+/* Welcome Section */
+.welcome-section {
+  background: #f8f9fa;
+}
+
+/* Footer */
+footer {
+  background: #2A0D54 !important;
+  color: #ffffff;
+}
+
+footer h5 {
+  color: #ffffff; 
+}
+
+.search-container {
+    position: relative;
+    color: #2A0D54;
+    border-radius: 20px;
+    background-color: #2A0D54;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.search-container input {
+    padding-right: 30px; 
+    border-radius: 20px;
+    background-color: #2A0D54;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.search-container::after {
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.search-container input::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+/* Featured Books Section */
+.featured-books .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.featured-books .card img {
+    height: 200px;
+    width: 150px;
+    display: block;
+    margin: 1cap;
+    object-fit: cover;
+    align-self: center;
+}
+
+.featured-books .card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.featured-books .rating {
+    color: #FACC15;
+    font-size: 1.2rem;
+}
+
+.featured-books .card-title,
+.featured-books .card-text,
+.featured-books .rating {
+    text-align: center;
+}
+
+.featured-books .card-img-top {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    display: block;
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background-color: #FACC15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 24px;
+    color: #2A0D54;
+  }
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+.video-container iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.video-container p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.card-body .rating{
+      color: #FACC15;
+    font-size: 1.2rem;
+}
+
+.p .card-text{
+text-align: left;
+}
+
+.video-container {
+    text-align: center;
+    margin: 10px;
+}
+
+.btn-dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.video-container p {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-white {
+    background-color: white !important;
+    border-radius: 5px !important;
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    text-align: left !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+  }
+  
+.btn-white:hover, .btn-white:focus, .btn-white:active {
+    background-color: white !important;
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+  }
+.btn-white .dropdown-arrow {
+    margin-left: auto;
+  }
+
+.text-black {
+    color: black;
+  }
+
+.social-icon {
+  color: #2A0D54;
+  }
+
+.btn-purple {
+  background-color: #2A0D54;
+  color: #ffffff;
+  border-radius: 5px;
+  }
+
+.btn-purple.btn-hover:hover {
+  background-color: #FACC15;
+  color: #000000;
+  }
+
+.btn-yellow {
+  padding: 6px 12px;
+  background-color: #FACC15;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+
+
